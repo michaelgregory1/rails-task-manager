@@ -1,15 +1,98 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 1px 3px grey;
+  padding: 20px 0px;
+  border-radius: 3px;
+  margin-top: 50px;
+  background-color: grey;
+}
+
+.btn {
+  margin-top: 20px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+#task_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 3px grey;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgb(220,220,220);
+  margin-bottom: 30px;
+}
+
+#task {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px grey;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+#add {
+  margin-bottom: 35px;
+  color: grey;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 1)), url("water.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+input {
+  margin-left: 10px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: #ffba5a;
+}
+
+a:hover {
+  color: rgb(33, 25, 25);
+}
+
+h1 {
+  margin: 30px 0px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: grey;
+}
+
+
+

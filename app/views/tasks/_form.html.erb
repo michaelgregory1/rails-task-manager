@@ -1,0 +1,16 @@
+
+<div class="container">
+  <%= form_for task do |f| %>
+  <div>
+    <%= f.label :title, "Enter a title" %>:
+    <%= f.text_field :title, class: 'form-control col-sm-2"' %>
+  </div>
+
+  <div>
+    <%= f.label :details, "Enter description" %>:
+    <%= f.text_field :details, class: 'form-control col-sm-2"' %>
+  </div>
+
+    <%= f.submit class: 'btn btn-primary' %>
+  <% end %>
+</div>
